@@ -59,13 +59,13 @@ body
 }
 .slides
 {
-	width: calc(1741px *2);
-	animation: glisse 8s infinite;
+	width: calc(600px*3);
+	animation: glisse 12s infinite;
 }
 .slider
 {
-	width: 1741px;
-	height: 938;
+	width: 600px;
+	height: 400px;
 	overflow: hidden;
 	margin: 150px auto;
 }
@@ -75,18 +75,27 @@ body
 	{
 		transform: translateX(0);
 	}
-	20%
+	16%
 	{
 		transform: translateX(0);
 	}
-	50%
+	33%
 	{
-		transform: translateX(-1741px);
+		transform: translateX(-600px);
 	}
-	70%
+	49%
 	{
-		transform: translateX(-1741px);
+		transform: translateX(-600px);
 	}
+	66%
+	{
+		transform: translateX(-1200px);
+	}
+	82%
+	{
+		transform: translateX(-1200px);
+	}
+	
 	100%
 	{
 		transform: translateX(0);
