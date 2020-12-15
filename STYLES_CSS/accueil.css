@@ -11,6 +11,7 @@ body
 	background-image: url(../Images/background.png);
 	background-position: cover;
 	background-position: center;
+
 }
 
 .menu-bar
@@ -34,7 +35,13 @@ body
 {
 	text-decoration: none;
 	color: white;
-	font-size: 21px;
+	font-size: 1.5rem;
+	font-family: helvetica;
+}
+.menu-bar ul li a i
+{
+	height: 65px;
+	width: 65px;
 }
 .menu-bar ul li:hover
 {
