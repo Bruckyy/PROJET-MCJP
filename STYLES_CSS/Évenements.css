@@ -1,0 +1,151 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	background-image: url(../Images/background.png);
+	background-position: cover;
+	background-position: center;
+
+}
+ 
+#fond_blanc
+{
+position: absolute; 
+width: 1000px;
+height: 1500px; 
+background-color: #F5F5F5;
+left: 85px;
+}
+
+
+#Titre
+{
+position: absolute;
+left: 100px;
+top: 100px;
+font-family: Helvetica, sans-serif;
+}
+
+#début
+{
+position: absolute;
+left: 100px;
+top: 150px;
+font-family: Helvetica, sans-serif;
+}
+
+.menu-bar
+{
+	background-color: #303132;
+	text-align: center;
+}
+
+.menu-bar ul
+{
+	display: inline-flex;
+	list-style: none;
+	color: white;
+}
+
+.menu-bar li
+{
+	width: 250px;
+	margin: 15px;
+	padding: 15px;
+}
+
+.menu-bar ul li a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 1.5rem;
+	font-family: helvetica;
+}
+
+.menu-bar ul li a i
+{
+	height: 65px;
+	width: 65px;
+}
+
+.menu-bar ul li:hover
+{
+	background: #545454;
+	border-radius: 1px;
+}
+
+.menu-bar .fa
+{
+	margin-left: 7px;
+}
+
+.grand-titre 
+{
+	text-align: center;
+	color: white;
+}
+
+img
+{
+width: 290px;
+height: 140px;
+}
+
+#Image1
+{
+position: absolute;
+top: 200px;
+left: 100px;
+}
+
+#Image2
+{
+position: absolute;
+top: 370px;
+left:100px;
+}
+
+#Image3
+{position: absolute;
+top: 540px;
+left:100px;
+}
+
+#Image4
+{
+position: absolute;
+top: 710px;
+left:100px;
+}
+
+#Image5
+{
+position: absolute;
+top: 880px;
+left:100px;
+}
+
+#Image6
+{
+position: absolute;
+top: 1050px;
+left:100px;
+}
+
+#Image7
+{
+position: absolute;
+top: 1220px;
+left:100px;
+}
+
+#Image8
+{position: absolute;
+top: 1390px;
+left:100px;
+}
