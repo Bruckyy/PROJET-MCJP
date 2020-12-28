@@ -127,10 +127,10 @@ body
 {
 	color: #FF2E00;
 	float: right;
-	width: 40px;
-	height: 40px;
+	width: 20px;
+	height: 20px;
 	border-radius: 50%;
-	background: black;
+	background: white;
 	display: flex;
 	justify-content: center;
 	align-items: center;
