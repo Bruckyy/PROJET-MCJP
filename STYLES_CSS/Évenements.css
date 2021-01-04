@@ -17,25 +17,100 @@ body
 {
 position: absolute; 
 width: 1000px;
-height: 1500px; 
+height: 1600px; 
 background-color: #F5F5F5;
-left: 85px;
+left: 220px;
+top: 140px;
 }
 
 
 #Titre
 {
 position: absolute;
-left: 100px;
-top: 100px;
+left: 15rem;
+top: 170px;
 font-family: Helvetica, sans-serif;
 }
 
 #début
 {
 position: absolute;
-left: 100px;
-top: 150px;
+left: 15rem;
+top: 230px;
+font-family: Helvetica, sans-serif;
+}
+
+#sous-début 
+{
+    position: absolute;
+    left: 15rem;
+    top: 255px;
+	font-family: Helvetica;
+
+}
+#sous-début
+{
+    font-weight: 300;
+}
+
+#ville
+{
+    font-weight: 100;
+}
+#texte_Image1
+{
+position: absolute;
+left: 600px;
+top: 370px;
+font-family: Helvetica, sans-serif;
+}
+#texte_Image2
+{
+position: absolute;
+left: 600px;
+top: 540px;
+font-family: Helvetica, sans-serif;
+}
+#texte_Image3
+{
+position: absolute;
+left: 600px;
+top: 710px;
+font-family: Helvetica, sans-serif;
+}
+#texte_Image4
+{
+position: absolute;
+left: 600px;
+top: 880px;
+font-family: Helvetica, sans-serif;
+}
+#texte_Image5
+{
+position: absolute;
+left: 600px;
+top: 1050px;
+font-family: Helvetica, sans-serif;
+}
+#texte_Image6
+{
+position: absolute;
+left: 600px;
+top: 1220px;
+font-family: Helvetica, sans-serif;
+}
+#texte_Image7
+{
+position: absolute;
+left: 600px;
+top: 1390px;
+font-family: Helvetica, sans-serif;
+}
+#texte_Image8
+{
+position: absolute;
+left: 600px;
+top: 1560px;
 font-family: Helvetica, sans-serif;
 }
 
@@ -57,6 +132,8 @@ font-family: Helvetica, sans-serif;
 	width: 250px;
 	margin: 15px;
 	padding: 15px;
+	border-right: solid;
+	border-right-width: 0.5px;
 }
 
 .menu-bar ul li a
@@ -84,7 +161,7 @@ font-family: Helvetica, sans-serif;
 	margin-left: 7px;
 }
 
-.grand-titre 
+#grand-titre 
 {
 	text-align: center;
 	color: white;
@@ -92,60 +169,60 @@ font-family: Helvetica, sans-serif;
 
 img
 {
-width: 290px;
-height: 140px;
+width: 18.125rem;
+height: 8.75rem;
 }
 
 #Image1
 {
 position: absolute;
-top: 200px;
-left: 100px;
+top: 370px;
+left: 16.25rem;
 }
 
 #Image2
 {
 position: absolute;
-top: 370px;
-left:100px;
+top: 540px;
+left: 16.25rem;
 }
 
 #Image3
 {position: absolute;
-top: 540px;
-left:100px;
+top: 710px;
+left: 16.25rem;
 }
 
 #Image4
 {
 position: absolute;
-top: 710px;
-left:100px;
+top: 880px;
+left: 16.25rem;
 }
 
 #Image5
 {
 position: absolute;
-top: 880px;
-left:100px;
+top: 1050px;
+left: 16.25rem;
 }
 
 #Image6
 {
 position: absolute;
-top: 1050px;
-left:100px;
+top: 1220px;
+left: 16.25rem;
 }
 
 #Image7
 {
 position: absolute;
-top: 1220px;
-left:100px;
+top: 1390px;
+left: 16.25rem;
 }
 
 #Image8
 {position: absolute;
-top: 1390px;
-left:100px;
+top: 1560px;
+left: 16.25rem;
 }
