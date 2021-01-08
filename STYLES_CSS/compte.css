@@ -108,7 +108,7 @@ a i
 .sub_title
 {
 	font-family: helvetica;
-	margin-left: 2rem;
+	margin-left: 4rem;
 	margin-top: 4rem;
 }
 .search-txt
@@ -120,18 +120,39 @@ a i
 .search-box-sign-in
 {
 	margin-top: 0.1rem;
-	margin-left: 2rem;
+	margin-left: 4rem;
 	width: 15rem;
 	border-bottom: solid;
 	border-bottom-width: 0.10rem;
 }
-#btn-ok
-{
-	background-color: black;
-	height: 1rem;
-	width: 1rem;
-}
+
 .fa-lock
 {
 	float: left;
+	margin-left: 2.75rem;
+	margin-top: 0.4rem;
+}
+.fa-id-card
+{
+	float: left;
+	margin-left: 2.50rem;
+	margin-top: 0.4rem;
+}
+
+#btn-ok
+{
+	background-color: #303132;
+	height: 1.5rem;
+	width: 6rem;
+	margin-left: 22rem;
+	margin-top: 0.37rem;
+	border-radius: 3px;
+}
+#btn-ok p
+{
+	color: white;
+}
+#btn-ok:hover
+{
+	background-color: grey;
 }
