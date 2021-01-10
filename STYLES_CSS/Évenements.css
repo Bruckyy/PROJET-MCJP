@@ -18,7 +18,7 @@ body
 position: absolute; 
 border-radius: 15px;
 width: 1000px;
-height: 1600px; 
+height: 1430px; 
 background-color: #F5F5F5;
 left: 220px;
 top: 140px;
@@ -29,24 +29,24 @@ box-shadow: inset 0 0 1em #F5F5F5, 0 0 2em #2c2c2c;
 #Titre
 {
 position: absolute;
-left: 15rem;
-top: 170px;
+margin-left: 20px;
+margin-top: 30px;
 font-family: Helvetica, sans-serif;
 }
 
 #début
 {
 position: absolute;
-left: 15rem;
-top: 230px;
+left: 20px;
+top: 110px;
 font-family: Helvetica, sans-serif;
 }
 
 #sous-début 
 {
     position: absolute;
-    left: 15rem;
-    top: 255px;
+    left: 20px;
+    top: 140px;
 	font-family: Helvetica;
 
 }
@@ -60,62 +60,6 @@ font-family: Helvetica, sans-serif;
     top: 415px;
 	font-family: Helvetica;
 	font-weight: 300;
-}
-#texte_Image1
-{
-position: absolute;
-left: 600px;
-top: 370px;
-font-family: Helvetica, sans-serif;
-}
-#texte_Image2
-{
-position: absolute;
-left: 600px;
-top: 540px;
-font-family: Helvetica, sans-serif;
-}
-#texte_Image3
-{
-position: absolute;
-left: 600px;
-top: 710px;
-font-family: Helvetica, sans-serif;
-}
-#texte_Image4
-{
-position: absolute;
-left: 600px;
-top: 880px;
-font-family: Helvetica, sans-serif;
-}
-#texte_Image5
-{
-position: absolute;
-left: 600px;
-top: 1050px;
-font-family: Helvetica, sans-serif;
-}
-#texte_Image6
-{
-position: absolute;
-left: 600px;
-top: 1220px;
-font-family: Helvetica, sans-serif;
-}
-#texte_Image7
-{
-position: absolute;
-left: 600px;
-top: 1390px;
-font-family: Helvetica, sans-serif;
-}
-#texte_Image8
-{
-position: absolute;
-left: 600px;
-top: 1560px;
-font-family: Helvetica, sans-serif;
 }
 
 .menu-bar
@@ -180,53 +124,101 @@ height: 8.75rem;
 #Image1
 {
 position: absolute;
-top: 370px;
-left: 16.25rem;
+top: 250px;
+left: 36px;
+}
+#texte_Image1
+{
+position: absolute;
+left: 390px;
+top: 250px;
+font-family: Helvetica, sans-serif;
 }
 
 #Image2
 {
 position: absolute;
-top: 540px;
-left: 16.25rem;
+top: 420px;
+left: 36px;
+}
+
+#texte_Image2
+{
+position: absolute;
+left: 390px;
+top: 420px;
+font-family: Helvetica, sans-serif;
 }
 
 #Image3
 {position: absolute;
-top: 710px;
-left: 16.25rem;
+top: 590px;
+left: 36px;
+}
+#texte_Image3
+{
+position: absolute;
+left: 390px;
+top: 590px;
+font-family: Helvetica, sans-serif;
 }
 
 #Image4
 {
 position: absolute;
-top: 880px;
-left: 16.25rem;
+top: 760px;
+left: 36px;
+}
+
+#texte_Image4
+{
+position: absolute;
+left: 390px;
+top: 760px;
+font-family: Helvetica, sans-serif;
 }
 
 #Image5
 {
 position: absolute;
-top: 1050px;
-left: 16.25rem;
+top: 930px;
+left: 36px;
 }
+
+#texte_Image5
+{
+position: absolute;
+left: 390px;
+top: 930px;
+font-family: Helvetica, sans-serif;
+}
+
 
 #Image6
 {
 position: absolute;
-top: 1220px;
-left: 16.25rem;
+top: 1100px;
+left: 36px;
+}
+#texte_Image6
+{
+position: absolute;
+left: 390px;
+top: 1100px;
+font-family: Helvetica, sans-serif;
 }
 
 #Image7
 {
 position: absolute;
-top: 1390px;
-left: 16.25rem;
+top: 1270px;
+left: 36px;
 }
 
-#Image8
-{position: absolute;
-top: 1560px;
-left: 16.25rem;
+#texte_Image7
+{
+position: absolute;
+left: 390px;
+top: 1270px;
+font-family: Helvetica, sans-serif;
 }
