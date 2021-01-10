@@ -98,12 +98,12 @@ a i
 	margin-top: 10rem;
 	box-shadow: inset 0 0 1em #F5F5F5, 0 0 2em #2c2c2c;
 }
-#connecter
+#fond_blanc h1
 {
 	font-family: helvetica;
 	font-size: 2rem;
-	margin-left: 2.10rem;
-	margin-top: 1.25rem;
+	margin-left: 1.2rem;
+	margin-top: 1rem;
 }
 .sub_title
 {
@@ -156,4 +156,9 @@ a i
 #btn-ok:hover
 {
 	background-color: grey;
+}
+#active
+{
+	background-color: grey;
+	border-radius: 5px;
 }
