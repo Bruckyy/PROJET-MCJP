@@ -92,3 +92,57 @@ a i
     background-color: grey;
     border-radius: 5px;
 }
+#fond_blanc
+{
+    position: absolute;
+    border-radius: 15px;
+    width: 60rem;
+    height: 85%;
+    background-color: #F5F5F5;
+    margin-left: 20rem;
+    margin-top: 5rem;
+    box-shadow: inset 0 0 1em #F5F5F5, 0 0 2em #2c2c2c;
+}
+h1
+{
+    font-family: helvetica;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+p
+{
+    font-family:helvetica;
+}
+
+#fond_blanc img
+{
+    float: left;
+    border-radius: 0.5rem;
+}
+.sub
+{
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.ligne
+{
+    margin-left: 2.5rem;
+    margin-top: 3rem;
+
+}
+.ligne input
+{
+    background-color: white;
+    border: solid 1px;
+    border-radius: 0.25rem;
+}
+.right_container
+{
+    display: inline;
+    float: right;
+    width: 30rem;
+    height: 20rem;
+    margin-left: 1.5rem;
+    justify-content: center;
+}
+
