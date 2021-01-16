@@ -10,6 +10,8 @@ body
     background-image: url(../Images/background.png);
     background-position: cover;
     background-position: center;
+    position: relative;
+    padding-bottom:115rem;
 }
 
 .menu-bar
@@ -337,7 +339,4 @@ font-family: Helvetica, sans-serif;
     border-radius: 5px;
 
 }
-#fond_blanc .image
-{
-    border-radius: 25px;
-}
+
