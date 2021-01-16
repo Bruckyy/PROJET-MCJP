@@ -337,4 +337,7 @@ font-family: Helvetica, sans-serif;
     border-radius: 5px;
 
 }
-
+#fond_blanc .image
+{
+    border-radius: 25px;
+}
