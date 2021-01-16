@@ -1,0 +1,14 @@
+header{
+    font-family: Gang of Three;
+    text-decoration: none;
+    color:black;
+    background-color: white;
+
+}
+
+header h1{
+    display: flex;
+    height: 5rem;
+    align-items: center;
+    text-decoration: none;
+}
