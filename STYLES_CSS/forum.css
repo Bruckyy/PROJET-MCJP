@@ -94,6 +94,12 @@ body
     border-right-width: 0.5px;
     width: 50px;
 }
+.fa-shopping-cart
+{
+    border-left: solid;
+    border-left-width: 0.5px;
+    width: 35px;
+}
 a i
 {
     text-decoration: none;
