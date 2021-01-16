@@ -76,7 +76,13 @@ body
 {
     border-right: solid;
     border-right-width: 0.5px;
-    width: 50px;
+    width: 40px;
+}
+.fa-shopping-cart
+{
+    border-left: solid;
+    border-left-width: 0.5px;
+    width: 35px;
 }
 a i
 {
@@ -109,6 +115,12 @@ h1
     margin-left: 2rem;
     margin-top: 1rem;
 }
+h3
+{
+    font-family: helvetica;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
 p
 {
     font-family:helvetica;
@@ -117,7 +129,9 @@ p
 #fond_blanc img
 {
     float: left;
-    border-radius: 0.5rem;
+    border-radius: 0.75rem;
+    width: 400px;
+    height: 200px;
 }
 .sub
 {
@@ -128,21 +142,25 @@ p
 {
     margin-left: 2.5rem;
     margin-top: 3rem;
-
 }
 .ligne input
 {
     background-color: white;
     border: solid 1px;
     border-radius: 0.25rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
 }
 .right_container
 {
-    display: inline;
     float: right;
     width: 30rem;
-    height: 20rem;
+    height: 15rem;
     margin-left: 1.5rem;
+    margin-top: 0.5rem;
     justify-content: center;
 }
-
+#image2
+{
+    margin-top: 3rem;
+}

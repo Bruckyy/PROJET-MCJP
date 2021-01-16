@@ -25,6 +25,7 @@
         <a class="search-btn" href="#"></a>
         <a href="https://twitter.com/MCJP_officiel" target="_blank"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
         <a href="https://www.facebook.com/MCJP.officiel" target="_blank"><i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i></a>
+        <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>
       </div>
         </ul>
     </div>
@@ -33,13 +34,13 @@
 <div id=fond_blanc>
 <h1>Billeterie</h1>
 
-<p class="sub">Liste des réservations disponibles :</p>
-<div class="ligne">
+<h3 class="sub">Liste des réservations disponibles :</h3>
+<div id="ligne1" class="ligne">
 	<img id="image1"class="booking" src="../Images/japanexpo_2021_.jpg">
-	<div class="right_container"><p class="desc">Japan Expo est LE rendez-vous des amoureux du Japon et de sa culture, du manga aux arts martiaux, du jeu vidéo au folklore nippon, de la J-music à la musique traditionnelle : un évènement incontournable pour tous ceux qui s’intéressent à la culture japonaise et une infinité de découvertes pour les curieux. Le tout à 30 minutes de Paris !</p></div>
+	<div class="right_container"><p class="desc">Japan Expo est LE rendez-vous des amoureux du Japon et de sa culture, du manga aux arts martiaux, du jeu vidéo au folklore nippon, de la J-music à la musique traditionnelle : un évènement incontournable pour tous ceux qui s’intéressent à la culture japonaise et une infinité de découvertes pour les curieux. Le tout à 30 minutes de Paris !</p>
 	<form action="/action_page.php">
   		<label for="ticket">Nombre de places</label>
-  		<select name="cars" id="cars">
+  		<select name="tickets" id="tickets">
     		<option value="1">1</option>
     		<option value="2">2</option>
     		<option value="3">3</option>
@@ -48,10 +49,10 @@
   <input type="submit" value="Confirmer">
 </form>
 </div>
-
-<div class="ligne">
+</div>
+<div id="ligne2" class="ligne">
 	<img id="image2" class="booking" src="../Images/kakemono.PNG">
-	<div class="right_container"><p class="desc">L'association Kakemono vous invite au Zénith de Strasbourg pour une septième édition bis de la Japan Addict Z qui se voit complétée par Universal Geek</p></div>
+	<div class="right_container"><p class="desc">L'association Kakemono vous invite au Zénith de Strasbourg pour une septième édition bis de la Japan Addict Z qui se voit complétée par Universal Geek</p>
 	<form action="/action_page.php">
   		<label for="ticket">Nombre de places</label>
   		<select name="cars" id="cars">
@@ -65,11 +66,12 @@
 </div>
 </div>
 
+
+
+
+
+
 </div>
-
-
-
-
 
 </body>
 </html>
