@@ -10,6 +10,7 @@ body
     background-image: url(../Images/background.jpg);
     background-position: cover;
     background-position: center;
+    min-height: 100vh;
 }
 
 .menu-bar
