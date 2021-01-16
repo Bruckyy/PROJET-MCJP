@@ -12,3 +12,9 @@ header h1{
     align-items: center;
     text-decoration: none;
 }
+
+.noHover{
+    text-decoration: none;
+    pointer-events: inherit;
+    color:black;
+}
