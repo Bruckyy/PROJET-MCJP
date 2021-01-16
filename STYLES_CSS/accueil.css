@@ -61,15 +61,17 @@ body
 }
 .slides
 {
-	width: calc(600px*3);
+	width: calc(376px*3);
 	animation: glisse 12s infinite;
 }
 .slider
 {
-	width: 600px;
-	height: 400px;
+	width: 376px;
+	height: 251px;
 	overflow: hidden;
-	margin: 150px auto;
+	float: right;
+	margin-right: 2rem;
+	margin-top: 4rem;
 }
 @keyframes glisse
 {
@@ -83,19 +85,19 @@ body
 	}
 	33%
 	{
-		transform: translateX(-600px);
+		transform: translateX(-376px);
 	}
 	49%
 	{
-		transform: translateX(-600px);
+		transform: translateX(-376px);
 	}
 	66%
 	{
-		transform: translateX(-1200px);
+		transform: translateX(-752px);
 	}
 	82%
 	{
-		transform: translateX(-1200px);
+		transform: translateX(-752px);
 	}
 	
 	100%
