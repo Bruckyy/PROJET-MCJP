@@ -119,17 +119,18 @@ table{
     width: 70%;
 }
 .article {
-    border-bottom: 1px solid grey;
+
     height:3rem;
+    background-image: linear-gradient(to bottom, white,95%,#DCDCDC);
 
 }
 .display {
     height: auto;
-    border: 1px solid black;
     width: 10rem;
     border-right: 0;
     border-top: 0;
-
+    background-image: linear-gradient(to bottom, white,95%,#DCDCDC);
+    text-align:center;
 }
 table, th, td{
     border-collapse: collapse;
