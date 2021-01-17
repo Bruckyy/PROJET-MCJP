@@ -2,7 +2,8 @@ header{
     font-family: Gang of Three;
     text-decoration: none;
     color:black;
-    background-color: white;
+    background-image: url(../Images/japactu_header.png);
+    height: 90px;
 
 }
 
@@ -14,6 +15,7 @@ header h1{
     justify-content: center;
     font-size: 4em;
     text-align: center;
+    height:90px;
 }
 
 .noHover{
