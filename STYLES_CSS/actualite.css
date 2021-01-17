@@ -98,7 +98,7 @@
    
     #fond_blanc
     {
-    position: absolute; 
+    background-position: center;
     border-radius: 0.9375rem;
     width: 62.5rem;
     height: 120rem; 
