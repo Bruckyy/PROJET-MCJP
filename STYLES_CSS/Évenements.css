@@ -100,7 +100,7 @@ a i
 {
     border-radius: 0.9375rem;
     width: 62.5rem;
-    height: 120rem; 
+    height: 1450px; 
     background-color: #F5F5F5;
     margin-left: 28.125rem;
     margin-top: 4.375rem;
@@ -135,14 +135,6 @@ font-family: Helvetica, sans-serif;
 #sous-début
 {
     font-weight: 300;
-}
-.sous-texte1
-{   position: absolute;	
-    margin-left: 37.5rem;
-    margin-top: 25.9375rem;
-	font-family: Helvetica;
-    font-weight: 300;
-    border: 1px solid black;
 }
 
 #grand-titre 
