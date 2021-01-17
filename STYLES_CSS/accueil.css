@@ -135,7 +135,7 @@ a i
 }
 
 .title{
-	text-align: center;
+	text-align: left;
 	padding: 25px;
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -143,3 +143,141 @@ a i
 .bienvenue p{
 	padding: 20px;
 }
+.une{
+	border:1px solid black;
+}
+.section_jp{
+	display:flex;
+	border: 1px solid black;
+	width:60%;
+}
+.image{
+	border: 1px solid black;
+	width: 20%;
+	height: 20%;
+	margin:10px;
+}
+
+.txt_actu{
+	border: 1px solid black;
+	width: 100%;
+	height: 6rem;
+	display: inline;
+}
+
+.section_b{
+	border:1px solid black;
+	width:50%;
+
+}
+
+#details
+{
+    /* empÃªcher le dÃ©bordement et contenir les marges Ã  l'intÃ©rieur de cette boite */
+	overflow: hidden;
+	/* texture trÃ¨s claire */
+	background-image: url();
+	padding-top: 40px;
+	padding-bottom: 70px;
+}
+
+
+
+/* Centrer horizontalement le contenu au milieu de la page  */
+.centrer
+{
+	/* les marges Ã  gauche et droite "auto" permettent de centrer */
+	margin-left: auto;
+	margin-right: auto;
+	/* largeur de la partie centrale principale de l'affichage */
+	width: 1200px;
+	/* Forcer Ã  ce que tout le contenu de cette partie reste Ã  l'intÃ©rieur de cette partie */
+	/* Par exemple: les marges ne dÃ©bordent pas */
+	/* Par exemple: les float ne dÃ©bordent pas */
+	overflow: hidden;
+}
+
+
+
+
+#details
+{
+    /* empÃªcher le dÃ©bordement et contenir les marges Ã  l'intÃ©rieur de cette boite */
+	overflow: hidden;
+	/* texture trÃ¨s claire */
+	background-image: url(images/footer-wrapper-bg.jpg);
+	padding-top: 40px;
+	padding-bottom: 70px;
+
+	margin:20px;
+}
+
+#details-centre
+{
+	/* On veut afficher les deux colonnes d'articles et details-droite horizontalement, pas verticalement */
+	display: flex;
+	justify-content: space-between;
+}
+.details-col-articles
+{
+	/* Chaque boite d'articles fait 3 colonnes */
+	/* 78*3+24*2=282 */
+	width: 282px;
+}
+
+#details h3
+{
+	color: #000000;
+    font-size: 21px;
+    letter-spacing: -1px;
+	font-weight: normal;
+	margin-bottom: 1.2em;
+}
+
+.article-list
+{
+	/* par dÃ©faut le <ul> a un padding-left assez grand, on l'enlÃ¨ve */
+	padding: 0;
+	/* enlever les puces de la liste <ul> */
+	list-style: none;
+}
+
+.article-list li
+{
+	/* forcer le <li> Ã  s'afficher aprÃ¨s tous les float: en particulier l'image dans le <li> prÃ©cÃ©dent */
+	clear: both;
+	padding-bottom: 12px;
+	margin-bottom: 12px;
+	/* lÃ©gÃ¨re ligne grise sous chaque <li> */
+	border-bottom: 1px solid #ddd;
+	overflow: hidden;
+	/* espacer verticalement les lignes de texte */
+	line-height: 150%;
+}
+
+/* Le dernier article (last-child = dernier fils) */
+.article-list li:last-child
+{
+	/* pas de trait en-dessous */
+	border: none;
+}
+
+/* Les petites images pour la liste d'articles */
+.article-list img
+{
+	/* afficher l'image Ã  gauche du texte */
+	float: left;
+	/* espace entre l'image et le texte */
+	margin-right: 20px;
+}
+
+.article-auteur
+{
+	margin-top: 8px;
+	margin-bottom: 0;
+	color: #A2A2A2;
+    /* Empecher que le texte puisse passer Ã  la ligne. */
+	white-space: nowrap;
+}
+
+
