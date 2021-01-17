@@ -28,7 +28,6 @@ body
 	font-size: 100%;
 }
 .menu-bar #principal_bar li::after{
-	content:'';
 	width: 0;
 	height:2px;
 	background: red;
