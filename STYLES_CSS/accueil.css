@@ -54,57 +54,7 @@ body
 {
 	margin-left: 7px;
 }
-.slide
-{
-	float: left;
 
-}
-.slides
-{
-	width: calc(376px*3);
-	animation: glisse 12s infinite;
-}
-.slider
-{
-	width: 376px;
-	height: 251px;
-	overflow: hidden;
-	float: right;
-	margin-right: 2rem;
-	margin-top: 4rem;
-}
-@keyframes glisse
-{
-	0%
-	{
-		transform: translateX(0);
-	}
-	16%
-	{
-		transform: translateX(0);
-	}
-	33%
-	{
-		transform: translateX(-376px);
-	}
-	49%
-	{
-		transform: translateX(-376px);
-	}
-	66%
-	{
-		transform: translateX(-752px);
-	}
-	82%
-	{
-		transform: translateX(-752px);
-	}
-	
-	100%
-	{
-		transform: translateX(0);
-	}
-}
 .search-box
 { 
 	margin-top: 33px; 
@@ -143,4 +93,27 @@ a i
 .content{
 	padding-bottom: 50rem;
 
+}
+
+.decale
+     {
+      margin-bottom: -8px;
+     }
+
+   #carouselExampleIndicators
+   {
+    width: 62,5rem;
+    height: 120rem;
+
+   }
+
+   #carouselExemple {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
 }
