@@ -83,23 +83,63 @@ button:hover{
     text-decoration: none;
     color: black;
 }
-
+/* Div tableau */
+.tableau{
+    padding: 10px;
+}
 /* Tête des tableaux */
 #aide{
     border:1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #animes{
     border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #games{
     border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#culture{
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 th{
     border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
 /* Corps des tableaux */
-td {
-    border: 10px solid black;
+.article {
+    border: 1px solid black;
+    width: 81%;
+}
+.display {
+    width: 10px;
+    border: 1px solid black;
+}
+table, th, td{
+    border-collapse: collapse;
+}
+
+/*Top navbar */
+.top_navbar{
+
+}
+
+/* aside */
+
+aside{
+    float:right;
+    border: 1px solid black;
+    width: 380px;
+    height: 550px;
+    padding:10px;
+    margin: 10px;
+
+}
+.tete_nav{
+    text-align: left;
 }

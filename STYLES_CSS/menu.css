@@ -23,6 +23,18 @@ body
 #principal_bar{
 	padding-right: 18rem;
 }
+.menu-bar #principal_bar li::after{
+	content:'';
+	width: 0;
+	height:2px;
+	background: red;
+	display: block;
+	margin: auto;
+	transition: .5s;
+}
+.menu-bar #principal_bar li:hover::after{
+	width:70%;
+}
 .menu-bar ul
 {
 	display: inline-flex;
@@ -94,3 +106,4 @@ a i
 {
 	margin-right: 10px;
 }
+
