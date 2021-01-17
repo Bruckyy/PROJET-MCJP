@@ -106,3 +106,7 @@ a i
 main{
 	position:relative;
 }
+.noHover{
+    text-decoration: none;
+    pointer-events: inherit;
+    color:black;}
