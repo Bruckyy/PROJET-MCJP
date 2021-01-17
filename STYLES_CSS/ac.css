@@ -1,0 +1,357 @@
+/* body reprÃ©sente toute la partie affichable du document HTML */
+body
+{
+    /* enlever le petit espace blanc tout autour de la page */
+	margin:0;
+    /* Police de caractÃ¨res par dÃ©faut pour tout texte */
+	font-family: Arial,Helvetica,sans-serif;
+    /* Couleur par dÃ©faut pour tout texte */
+	color: #616161;
+    /* Taille par dÃ©faut pour tout texte */
+	font-size: 12px;
+}
+
+/* Centrer horizontalement le contenu au milieu de la page  */
+.centrer
+{
+	/* les marges Ã  gauche et droite "auto" permettent de centrer */
+	margin-left: auto;
+	margin-right: auto;
+	/* largeur de la partie centrale principale de l'affichage */
+	width: 1200px;
+	/* Forcer Ã  ce que tout le contenu de cette partie reste Ã  l'intÃ©rieur de cette partie */
+	/* Par exemple: les marges ne dÃ©bordent pas */
+	/* Par exemple: les float ne dÃ©bordent pas */
+	overflow: hidden;
+}
+
+/* Les vieux Firefox ajoutent une bordure bleue autour des images contenues dans un lien */
+a img
+{
+	border: none;
+}
+
+#entete
+{
+	color: white;
+	/* texture verte affichÃ©e en dehors de la partie centrale */
+	background-image: url(images/header-outer-bg.jpg);
+}
+
+#entete-centre
+{
+	/* Image de fond avec des herbes pour la partie centrale de l'entete */
+	background-image: url(images/header-bg.jpg);
+	background-repeat: none;
+	/* centrer l'image de fond horizontalement et la coller en haut */
+	background-position: center top;
+	padding-bottom: 20px;
+}
+
+#logo
+{
+	padding-top: 17px;
+	padding-bottom: 28px;
+}
+
+#logo h1
+{
+    /* On veut que le logo et le soustitre soient sur la mÃªme ligne  */
+	display: inline;
+    /* La police "Lobster" du logo est incluse par la balise <link> */
+	font-family: 'Lobster',cursive;
+	font-size: 72px;
+	/* par dÃ©faut le h1 est "bold" (gras), nous on veut normal */
+	font-weight: normal;
+	/* enlever les espaces par dÃ©faut du h1 */
+	margin: 0;
+}
+
+#soustitre
+{
+	display: inline;
+	margin-left: 8px;
+	font-family: 'Magra',sans-serif;
+    font-size: 27px;
+    font-weight: 200;
+	/* serrer les lettres (diminuer l'espacement horizontal entre chaque lettre) */
+    letter-spacing: -2px;
+}
+
+#menu 
+{
+	margin-bottom: 21px;
+}
+
+#menu ul
+{
+	/* enlever les puces de la liste ul */
+	list-style: none;
+	background-color: #242424;
+	/* Forcer le ul Ã  prendre en compte tout son contenu. */
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	/* On veut une liste horizontale, pas verticale */
+	display: flex;
+}
+
+#menu li
+{
+    /* une legere bordure Ã  chaque Ã©lÃ©ment du menu pour ajouter du relief */
+	border-left: 1px solid #323232;
+	border-right: 1px solid #131313;
+}
+
+#menu li a
+{
+    /* on veut pouvoir agrandir le lien, ce qui n'est pas possible en inline (par dÃ©faut) */
+	display: block;
+	padding: 17px 24px;
+	/* par dÃ©faut les liens sont soulignÃ©s... enlever */
+	text-decoration: none;
+	color: #b2b2b2;
+	font-size: 12px;
+}
+
+/* :hover s'applique quand la souris pas pardessus l'Ã©lÃ©ment */
+#menu li a:hover
+{
+    color: #FFFFFF;
+	/* dÃ©gradÃ© gris clair ver gris sombre, du haut vers le bas */
+    /* crÃ©e avec http://www.css3factory.com/linear-gradients/ */
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #232323),color-stop(1, #3A3A3A));
+	background-image: -o-linear-gradient(top, #232323 0%, #3A3A3A 100%);
+	background-image: -moz-linear-gradient(top, #232323 0%, #3A3A3A 100%);
+	background-image: -webkit-linear-gradient(top, #232323 0%, #3A3A3A 100%);
+	background-image: -ms-linear-gradient(top, #232323 0%, #3A3A3A 100%);
+	background-image: linear-gradient(to top, #232323 0%, #3A3A3A 100%);
+}
+
+#illustration-haut
+{
+    /* ajouter un cadre semi-transparent Ã  la grande image du haut */
+	background-color: rgba(0,0,0,.1);
+	padding: 20px 0;
+    /* centrer l'image Ã  l'intÃ©rieur du div */
+	text-align: center;
+}
+
+#principal
+{
+	padding-bottom: 60px;
+}
+
+#principal-titre
+{
+	color: #696969;
+	font-family: 'Magra',sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+	/* serrer les lettres (diminuer l'espacement horizontal entre chaque lettre) */
+    letter-spacing: -3px;
+	/* espacer verticalement les lignes de texte */
+	line-height: 110%;
+	/* centrer le texte */
+	text-align: center;
+	margin-top: 53px;
+	margin-bottom: 30px;
+}
+
+#principal-titre span
+{
+	color: black;
+}
+
+#boites
+{
+	/* pour placer les trois boites horizontalement, pas verticalement */
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Les trois boites avec des images et du texte */
+.boite
+{
+	/* chaque boite occupe 4 colonnes: 78*4+24*3=384 */
+	width: 384px;
+	/* espacer verticalement les lignes de texte */
+	line-height: 200%;
+}
+
+.principal-ligne-bouton
+{
+	margin-top: 30px;
+}
+
+.gros-bouton
+{
+	color: white;
+	border: 1px solid #277700;
+    /* coins arrondis */
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	/* double ombre, la premiÃ¨re est noire en bas, la deuxiÃ¨me est interne et claire pour crÃ©er un lÃ©ger relief */
+	-moz-box-shadow: 0 0 0 1px #83C862 inset,
+	                 0 2px 2px #aaa;
+	box-shadow:      0 0 0 1px #83C862 inset,
+	                 0 2px 2px #aaa;
+	font-size: 17px;
+	padding: 10px 30px;
+	/* leger dÃ©gradÃ© vert */
+	background-image: -moz-linear-gradient(top, #40AA0E, #328B06);
+	background-image: -webkit-linear-gradient(top, #40AA0E, #328B06);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#40AA0E), to(#328B06));
+	background-image: -ms-linear-gradient(top, #40AA0E, #328B06);
+	background-image: -o-linear-gradient(top, #40AA0E, #328B06);
+	background-image: linear-gradient(top, #40AA0E, #328B06);
+	/* lÃ©gere ombre sombre au-dessus du texte */
+	text-shadow: 0px -1px 1px #333;
+    /* Empecher que le texte dans le bouton puisse passer Ã  la ligne. */
+	white-space: nowrap;
+}
+
+#details
+{
+    /* empÃªcher le dÃ©bordement et contenir les marges Ã  l'intÃ©rieur de cette boite */
+	overflow: hidden;
+	/* texture trÃ¨s claire */
+	background-image: url(images/footer-wrapper-bg.jpg);
+	padding-top: 40px;
+	padding-bottom: 70px;
+}
+
+#details-centre
+{
+	/* On veut afficher les deux colonnes d'articles et details-droite horizontalement, pas verticalement */
+	display: flex;
+	justify-content: space-between;
+}
+.details-col-articles
+{
+	/* Chaque boite d'articles fait 3 colonnes */
+	/* 78*3+24*2=282 */
+	width: 282px;
+}
+
+#details h3
+{
+	color: #000000;
+    font-size: 21px;
+    letter-spacing: -1px;
+	font-weight: normal;
+	margin-bottom: 1.2em;
+}
+
+.article-list
+{
+	/* par dÃ©faut le <ul> a un padding-left assez grand, on l'enlÃ¨ve */
+	padding: 0;
+	/* enlever les puces de la liste <ul> */
+	list-style: none;
+}
+
+.article-list li
+{
+	/* forcer le <li> Ã  s'afficher aprÃ¨s tous les float: en particulier l'image dans le <li> prÃ©cÃ©dent */
+	clear: both;
+	padding-bottom: 12px;
+	margin-bottom: 12px;
+	/* lÃ©gÃ¨re ligne grise sous chaque <li> */
+	border-bottom: 1px solid #ddd;
+	overflow: hidden;
+	/* espacer verticalement les lignes de texte */
+	line-height: 200%;
+}
+
+/* Le dernier article (last-child = dernier fils) */
+.article-list li:last-child
+{
+	/* pas de trait en-dessous */
+	border: none;
+}
+
+/* Les petites images pour la liste d'articles */
+.article-list img
+{
+	/* afficher l'image Ã  gauche du texte */
+	float: left;
+	/* espace entre l'image et le texte */
+	margin-right: 20px;
+}
+
+.article-auteur
+{
+	margin-top: 8px;
+	margin-bottom: 0;
+	color: #A2A2A2;
+    /* Empecher que le texte puisse passer Ã  la ligne. */
+	white-space: nowrap;
+}
+
+#details-droite
+{
+	width: 588px;
+	overflow: hidden;
+	/* espacer verticalement les lignes de texte */
+	line-height: 200%;
+}
+
+.details-ligne-bouton
+{
+	margin-top: 40px;
+}
+
+#bas-de-page
+{
+	/* Texture trÃ¨s sombre pour le bas de page */
+	background-image: url(images/footer-dark-bg.jpg);
+}
+
+#bas-de-page-centre
+{
+	text-align: center;
+	color: #555555;
+	padding: 100px;
+}
+
+#bas-de-page a
+{
+	color: #555555;
+}
+
+/* Balises HTML5 pour vieux navigateurs */
+section,nav,article,aside,header,footer,main
+{
+    display: block;
+}
+
+
+#grid-center
+{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#grid
+{
+	width: 1200px;
+	margin: 0 auto;
+	position: absolute;
+	height: 2000px;
+	z-index: 10;
+}
+
+#grid div
+{
+	background-color: rgba(255,229,229,.8);
+	width: 78px;
+	height: 100%;
+	float: left;
+	margin-right: 24px;
+}
+
+#grid div:last-child
+{
+	margin: 0;
+}
