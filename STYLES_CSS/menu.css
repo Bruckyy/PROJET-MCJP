@@ -12,6 +12,7 @@ body
 	background-position: cover;
 	background-position: center;
 
+
 }
 
 .menu-bar
@@ -102,4 +103,6 @@ a i
 {
 	margin-right: 10px;
 }
-
+main{
+	position:relative;
+}
