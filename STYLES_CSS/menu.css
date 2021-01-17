@@ -62,11 +62,7 @@ body
 	height: 65px;
 	width: 65px;
 }
-.menu-bar ul li:hover
-{
-	background: #545454;
-	border-radius: 5px;
-}
+
 .menu-bar .fa
 {
 	margin-left: 7px;
