@@ -21,7 +21,7 @@ body
 	display: flex;
 }
 #principal_bar{
-	padding-right: 18rem;
+	padding-right: 5rem;
 }
 .menu-bar #principal_bar li::after{
 	content:'';
