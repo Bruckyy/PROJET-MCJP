@@ -3,6 +3,7 @@
     pointer-events: inherit;
     color:black;
 }
+
 #home{
     color:black;
 }
@@ -139,10 +140,6 @@ table, th, td{
     border-collapse: collapse;
 }
 
-/*Top navbar */
-.top_navbar{
-
-}
 
 /* aside */
 

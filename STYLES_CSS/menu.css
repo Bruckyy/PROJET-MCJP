@@ -28,6 +28,7 @@ body
 	font-size: 100%;
 }
 .menu-bar #principal_bar li::after{
+	content:'';
 	width: 0;
 	height:2px;
 	background: red;
@@ -111,4 +112,12 @@ main{
 .noHover{
     text-decoration: none;
     pointer-events: inherit;
-    color:black;}
+	color:inherit;}
+	
+#logo-acceuil
+{
+    height: 4.6875rem;
+    width: 4.8125rem;
+    float: left;
+    margin-top: 0.3125rem;
+}
