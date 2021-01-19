@@ -136,12 +136,7 @@
 }
 
 
-li
-{
-    font-family: helvetica;
-    list-style: none;
-    margin-top: 8px;
-}
+
 #about
 {
     margin-left: auto;
@@ -175,4 +170,11 @@ li
     color: white;
     border-bottom: solid grey;
     border-bottom-width: 1px;
+}
+
+.connexion{
+	padding-bottom:40px;
+	padding-right:16px;
+	font-size:40px;
+	color: white;
 }

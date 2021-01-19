@@ -83,7 +83,6 @@ button:hover{
     color: white;
     margin:32px;
     padding: 8px;
-    border-radius: 7px;
 
 }
 
@@ -91,4 +90,11 @@ button:hover{
     text-decoration: none;
     color: white;
     border:none;
+}
+
+.connexion{
+	padding-bottom:40px;
+	padding-right:16px;
+	font-size:40px;
+	color: white;
 }

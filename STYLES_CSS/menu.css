@@ -53,12 +53,7 @@ body
 	width:100%;
 }
 
-.connexion{
-	padding-bottom:40px;
-	padding-right:16px;
-	font-size:40px;
-	color: white;
-}
+
 #principal_bar .connexion{
 	float:right;
 }
