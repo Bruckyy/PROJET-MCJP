@@ -58,15 +58,16 @@
 	width: 6rem;
 	margin-left: 22rem;
 	margin-top: 0.95rem;
-	border-radius: 3px;
 	border: none;
+	background-color: red;
 }
 #btn-ok p
 {
 	color: white;
+	border: 0;
 }
 #btn-ok:hover
 {
-	background-color: grey;
+	background-color: darkred;
 }
 
