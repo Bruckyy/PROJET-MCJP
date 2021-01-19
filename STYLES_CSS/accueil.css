@@ -113,7 +113,14 @@ img.img_
 
 h4
 {
-    margin-left: 100px
+    background-color: #303132;
+    color: rgb(255, 255, 255);
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 20px;
+    border: 15px solid white;
 }
 
 .logo_mcjp
