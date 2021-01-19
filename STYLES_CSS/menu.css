@@ -11,14 +11,13 @@ body
 	background-image: url(../Images/sayagata-400px.png);
 	background-position: cover;
 	background-position: center;
-
+	
 
 }
 
 .menu-bar
 {
 	display:flex;
-	border: 1px solid black;
 	height: 65px;
 }
 #principal_bar{
