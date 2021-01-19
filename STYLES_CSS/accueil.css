@@ -31,7 +31,8 @@
 .content{
     border-radius: 0.9375rem;
     width: 62.5rem;
-    height: 120rem; 
+    height: 105rem; 
+    margin-bottom: 5rem;
     background-color: #F5F5F5;
     margin-left: 28.125rem;
     margin-top: 4.375rem;
@@ -128,4 +129,8 @@ h4
     width:600px;
     height: 400px;
     margin-left: 200px;   
+}
+
+.paragraphe{
+    padding:2rem;
 }
