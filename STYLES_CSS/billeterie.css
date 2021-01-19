@@ -4,7 +4,7 @@
     position: absolute;
     border-radius: 15px;
     width: 60rem;
-    height: 85%;
+    height: 65%;
     background-color: #F5F5F5;
     margin:30rem;
     margin-top: 5rem;
@@ -69,4 +69,25 @@ p
 label
 {
     font-family: helvetica;
+}
+
+button:hover{
+    border:none;
+    text-decoration: none;
+}
+
+#bouton{
+    border:none;
+    background-color:red;
+    font-family:"Source Sans Pro",sans-serif;
+    color: white;
+    margin:32px;
+    padding: 8px;
+
+}
+
+#bouton-hover{
+    text-decoration: none;
+    color: white;
+    border:none;
 }

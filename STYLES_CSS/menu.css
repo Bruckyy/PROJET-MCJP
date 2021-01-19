@@ -17,15 +17,29 @@ body
 
 .menu-bar
 {
-	background-color: #303132;
-	text-align: center;
-	display: flex;
+	display:flex;
+	border: 1px solid black;
+	height: 65px;
 }
 #principal_bar{
-	padding-top: 0;
-	padding-right: 5rem;
-	margin:0;
-	font-size: 100%;
+	flex: 1;
+	background-color: #303132;
+}
+#principal_bar ul{
+	display:inline;
+}
+
+#principal_bar ul li{
+	list-style:none;
+	display: inline-block;
+	padding:8px 25px;
+}
+
+#principal_bar ul a{
+	color: white;
+	text-decoration: none;
+	font-size: 1.5rem;
+	font-family: "Source Sans Pro",sans-serif;
 }
 .menu-bar #principal_bar li::after{
 	content:'';
@@ -37,45 +51,32 @@ body
 	transition: .5s;
 }
 .menu-bar #principal_bar li:hover::after{
-	width:70%;
-}
-.menu-bar ul
-{
-	display: inline-flex;
-	list-style: none;
-	color: white;
-}
-.menu-bar li
-{
-	width: 250px;
-	margin: 15px;
-	padding: 15px;
-	height: 50px;
-	border-right: solid;
-	border-right-width: 0.5px;
-}
-.menu-bar ul li a
-{
-	text-decoration: none;
-	color: white;
-	font-size: 1.5rem;
-	font-family: helvetica;
-}
-.menu-bar ul li a i
-{
-	height: 65px;
-	width: 65px;
+	width:100%;
 }
 
-.menu-bar .fa
-{
-	margin-left: 7px;
+.connexion{
+	padding-bottom:40px;
+	padding-right:16px;
+	font-size:40px;
+	color: white;
+}
+#principal_bar .connexion{
+	float:right;
 }
 
+.cart{
+	padding-top:10px;
+	padding-right:30px;
+	font-size:30px;
+	color: white;
+}
+#principal_bar .cart{
+	float:right;
+}
 .search-box
 { 
-	margin-top: 33px; 
-	margin-left: 10px;
+	float:right;
+	padding:20px;
 }
 .search-txt
 {
@@ -84,18 +85,6 @@ body
 	outline: none;
 	width: 180px;
 	height: 26px;
-}
-#logo-acceuil
-{
-	height: 75px;
-	float: left;
-	margin-top: 5px;
-}
-.fa-twitter
-{
-	border-right: solid;
-	border-right-width: 0.5px;
-	width: 50px;
 }
 a i
 {
@@ -121,3 +110,4 @@ main{
     float: left;
     margin-top: 0.3125rem;
 }
+
