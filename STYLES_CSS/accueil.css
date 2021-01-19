@@ -59,3 +59,49 @@
 .title h3{
 	font-size: 2rem;
 }
+
+.actu1
+{
+    display: flex;
+    flex-flow: row ;    
+    justify-content: flex-start;
+    margin-left: 130px;
+
+}
+
+img.img_
+{
+    width: 240px;
+    height: 150px;
+    margin :0%; 
+
+}
+
+.position
+{
+    width: 240px;
+    height: 90px;
+    color: black;
+    float:right;
+    font-size:12px;
+    margin-top:-100px;
+
+}
+
+ section.taille_img
+ {
+        width: 400px;
+        height: 250px;   
+        margin: 0%;
+
+ }
+
+.conteneur
+{
+        margin-top: 2%;
+        display: flex;
+        justify-content: space-around;  
+        display:flex;
+        flex-direction: column;
+        margin-left:-100px;
+}
