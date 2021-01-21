@@ -65,9 +65,10 @@
 
     h2
     {
-      margin-left: 130px;  
+      padding: 10px;  
       color: black;
-      font-size: 17px;  
+      font-size: 17px; 
+      text-align: center; 
     }
     .decale
      {
@@ -177,4 +178,9 @@
 	padding-right:16px;
 	font-size:40px;
 	color: white;
+}
+
+*
+{
+    font-family: "Source Sans Pro",sans-serif;
 }

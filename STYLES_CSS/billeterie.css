@@ -4,7 +4,7 @@
     position: absolute;
     border-radius: 15px;
     width: 60rem;
-    height: 65%;
+    height: 69%;
     background-color: #F5F5F5;
     margin:30rem;
     margin-top: 5rem;
@@ -12,20 +12,16 @@
 }
 h1
 {
-    font-family: helvetica;
-    margin-left: 2rem;
-    margin-top: 1rem;
+    padding: 10px;
+    padding-top:1rem;
+    padding-left:2rem;
 }
 h3
 {
-    font-family: helvetica;
     margin-left: 2rem;
     margin-top: 1rem;
 }
-p
-{
-    font-family:helvetica;
-}
+
 
 #fond_blanc img
 {
@@ -66,10 +62,6 @@ p
 {
     margin-top: 3rem;
 }
-label
-{
-    font-family: helvetica;
-}
 
 button:hover{
     border:none;
@@ -97,4 +89,9 @@ button:hover{
 	padding-right:16px;
 	font-size:40px;
 	color: white;
+}
+
+*
+{
+    font-family: "Source Sans Pro",sans-serif;
 }

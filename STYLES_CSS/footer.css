@@ -6,7 +6,8 @@
 	width: 100%;
 	position: fixed;
 	bottom: 0;
-	display: inline-flex;
+	display: flex;
+	flex-grow: 1;
 }
 
 #footer a
@@ -17,7 +18,6 @@
 }
 #footer p
 {
-	font-family: helvetica;
 	text-decoration: none;
 	margin-top: auto;
 	margin-bottom: auto;
@@ -31,14 +31,12 @@
 }
 #footer_elements
 {
-	margin-top: auto;
-	margin-bottom: auto;
-	margin-right: 40rem;
-	margin-left:auto;
+	display:flex;
+	flex-grow: 1;
 }
 .droite
 {
-	border-left: solid white;
+
 	border-left-width: 0.5px;
 	padding-left: 5px;
 }
@@ -50,5 +48,16 @@
 
 .icon{
 	padding:8px;
+
+}
+
+*
+{
+    font-family: "Source Sans Pro",sans-serif;
+}
+
+.infos{
+	display:flex;
+	padding-left: 20px;
 
 }

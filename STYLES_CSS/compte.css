@@ -12,20 +12,20 @@
 }
 #fond_blanc h1
 {
-	font-family: helvetica;
+
 	font-size: 2rem;
 	margin-left: 1.2rem;
 	margin-top: 1rem;
 }
 .sub_title
 {
-	font-family: helvetica;
+
 	margin-left: 4rem;
 	margin-top: 3rem;
 }
 .search-txt
 {
-	font-family: helvetica;
+
 	width: 15rem;
 	background-color: #F5F5F5;
 }
@@ -76,4 +76,9 @@
 	padding-right:16px;
 	font-size:40px;
 	color: white;
+}
+
+*
+{
+    font-family: "Source Sans Pro",sans-serif;
 }
